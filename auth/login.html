@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>Login - Your Planner!</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Karla:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.materialdesignicons.com/4.8.95/css/materialdesignicons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <link href="../assets/img/logo.png" rel="icon" />
+    <link rel="stylesheet" href="assets/css/login.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+
+  <body>
+    <main class="d-flex align-items-center min-vh-100 py-3 py-md-0">
+      <div class="container">
+        <div class="card login-card">
+          <div class="row no-gutters">
+            <div class="col-md-5">
+              <img
+                src="assets/images/calendar.jpg"
+                alt="login"
+                class="login-card-img"
+              />
+            </div>
+            <div class="col-md-7">
+              <div class="card-body">
+                <a class="back-btn" href="../index.html">Voltar</a>
+                <div class="brand-wrapper">
+                  <h1 class="logo-h1">
+                    Your <span class="logo-span">Planner!</span>
+                  </h1>
+                </div>
+                <p class="login-card-description">Faça login em sua conta</p>
+
+                <form>
+                  <div class="form-group">
+                    <label for="email" class="sr-only">Email</label>
+                    <input
+                      type="email"
+                      name="email"
+                      id="email"
+                      class="form-control"
+                      placeholder="exemplo@email.com"
+                    />
+                  </div>
+                  <div class="form-group mb-4">
+                    <label for="password" class="sr-only">Password</label>
+                    <input
+                      type="password"
+                      name="password"
+                      id="senha"
+                      class="form-control"
+                      placeholder="***********"
+                    />
+                  </div>
+                  <div class="d-flex"></div>
+                  <button
+                    type="submit"
+                    value="Entrar"
+                    id="entrar"
+                    name="submitData"
+                    class="btn btn-block login-btn mb-4"
+                  >
+                    Login
+                  </button>
+                </form>
+                <a href="#!" class="forgot-password-link">Esqueceu a senha?</a>
+                <p class="login-card-footer-text" id="register-option">
+                  <br />Ainda não tem uma conta?<br />
+                  <a href="register.html" class="text-reset"
+                    >Cadastrar agora!</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
+
+<script src="./login.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>

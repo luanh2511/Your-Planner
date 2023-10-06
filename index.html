@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>Início - Your Planner!</title>
+
+    <link href="assets/img/logo.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <link href="assets/css/variables.css" rel="stylesheet" />
+
+    <link href="assets/css/main.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header id="header" class="header fixed-top" data-scrollto-offset="0">
+      <div
+        class="container-fluid d-flex align-items-center justify-content-between"
+      >
+        <a
+          href="index.html"
+          class="logo d-flex align-items-center scrollto me-auto me-lg-0"
+        >
+          <h1>
+            Your <span><br />Planner!</span>
+          </h1>
+        </a>
+
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li>
+              <a href="index.html" class="active"
+                ><span>Página Inicial</span></a
+              >
+            </li>
+            <li>
+              <a class="nav-link scrollto" href="about.html">Sobre o Site</a>
+            </li>
+            <li>
+              <a class="nav-link scrollto" href="contact.html">Contato</a>
+            </li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle d-none"></i>
+        </nav>
+        <a class="btn-getstarted scrollto" href="auth/login.html">Login</a>
+      </div>
+    </header>
+
+    <section id="hero-animated" class="hero-animated d-flex align-items-center">
+      <div
+        class="container d-flex flex-column justify-content-center align-items-center text-center position-relative"
+        data-aos="zoom-out"
+      >
+        <img src="assets/img/logo.png" class="img-fluid animated" />
+        <h2>Your <span>Planner!</span></h2>
+        <p>Sua agênda autônoma.</p>
+        <div class="d-flex">
+          <a href="auth/register.html" class="btn-get-started scrollto"
+            >Cadastrar agora</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <main id="main">
+      <section id="featured-services" class="featured-services">
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out">
+              <div class="service-item position-relative">
+                <div class="icon"><i class="bi bi-activity icon"></i></div>
+                <h4>
+                  <a href="#" class="stretched-link">Simplificação diária</a>
+                </h4>
+                <p>Ajudando a otimizar seu tempo e melhorar a produtividade.</p>
+              </div>
+            </div>
+
+            <div
+              class="col-xl-3 col-md-6 d-flex"
+              data-aos="zoom-out"
+              data-aos-delay="200"
+            >
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="bi bi-bounding-box-circles icon"></i>
+                </div>
+                <h4>
+                  <a href="#" class="stretched-link">Interface prática</a>
+                </h4>
+                <p>
+                  Uma interface prática que foi projetada para ser acessível,
+                  eficiente, fácil de entender e utilizar.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-xl-3 col-md-6 d-flex"
+              data-aos="zoom-out"
+              data-aos-delay="400"
+            >
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="bi bi-calendar4-week icon"></i>
+                </div>
+                <h4>
+                  <a href="#" class="stretched-link">Agênda Automática</a>
+                </h4>
+                <p>
+                  Uma agenda automatizada pode agendar compromissos, tarefas e
+                  atividades de forma rápida e precisa, economizando tempo que
+                  seria gasto fazendo isso manualmente.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-xl-3 col-md-6 d-flex"
+              data-aos="zoom-out"
+              data-aos-delay="600"
+            >
+              <div class="service-item position-relative">
+                <div class="icon"><i class="bi bi-broadcast icon"></i></div>
+                <h4>
+                  <a href="#" class="stretched-link">Em qualquer lugar </a>
+                </h4>
+                <p>
+                  Podendo ser utilizada em qualquer dispositivo e em qualquer
+                  lugar.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="cta" class="cta">
+        <div class="container" data-aos="zoom-out">
+          <div class="row g-5">
+            <div
+              class="col-lg-8 col-md-6 content d-flex flex-column justify-content-center order-last order-md-first"
+            >
+              <h3>Seus <em>clientes</em> em <em>prioridade</em></h3>
+              <p>
+                A agenda autônoma busca melhorar significativamente a
+                experiência dos clientes, tornando o processo de agendamento
+                mais conveniente, eficiente e personalizado. Levando a um
+                aumento na satisfação dos clientes e à fidelização.
+              </p>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6 order-first order-md-last d-flex align-items-center"
+            >
+              <div class="img">
+                <img src="assets/img/cta.jpg" alt="" class="img-fluid" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="services section-2" style="margin-bottom: 30px;">
+        <div class="container" data-aos="fade-up">
+          <div class="section-header">
+            <h2>Por que uma agenda autônoma?</h2>
+            <p>
+              A agenda autônoma busca melhorar significativamente a experiência
+              dos clientes, tornando o processo de agendamento mais conveniente,
+              eficiente e personalizado. Levando a um aumento na satisfação dos
+              clientes e à fidelização.
+            </p>
+          </div>
+
+          <div class="row gy-5">
+            <div
+              class="col-xl-4 col-md-6"
+              data-aos="zoom-in"
+              data-aos-delay="200"
+            >
+              <div class="service-item">
+                <div class="img">
+                  <img
+                    src="assets/img/services-1.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="details position-relative">
+                  <div class="icon">
+                    <i class="bi bi-activity"></i>
+                  </div>
+                  <a href="#" class="stretched-link">
+                    <h3>Como utilizar?</h3>
+                  </a>
+                  <p>
+                    O site pode ser usado livremente sempre que for preciso uma
+                    agenda eficiente e organização financeira em um só lugar.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-xl-4 col-md-6"
+              data-aos="zoom-in"
+              data-aos-delay="300"
+            >
+              <div class="service-item">
+                <div class="img">
+                  <img
+                    src="assets/img/services-2.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="details position-relative">
+                  <div class="icon">
+                    <i class="bi bi-broadcast"></i>
+                  </div>
+                  <a href="#" class="stretched-link">
+                    <h3>Benefícios</h3>
+                  </a>
+                  <p>
+                    Facilidade na hora de agendar um cliente, manejar seus dados
+                    e organizar suas finanças.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-xl-4 col-md-6"
+              data-aos="zoom-in"
+              data-aos-delay="400"
+            >
+              <div class="service-item">
+                <div class="img">
+                  <img
+                    src="assets/img/services-3.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="details position-relative">
+                  <div class="icon">
+                    <i class="bi bi-broadcast"></i>
+                  </div>
+                  <a href="#" class="stretched-link">
+                    <h3>Diversidade</h3>
+                  </a>
+                  <p>
+                    Para qualquer trabalho, a qualquer hora em qualquer lugar,
+                    basta logar e gerenciar sua agenda.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-legal text-center">
+        <div
+          class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center"
+        >
+          <div
+            class="d-flex flex-column align-items-center align-items-lg-start"
+          >
+            <div class="copyright">
+              &copy; Copyright <strong><span>Your Planner!</span></strong> Todos
+              os Direitos Reservados
+            </div>
+          </div>
+
+          <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
+            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
+            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <a
+      href="#"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <div id="preloader"></div>
+
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

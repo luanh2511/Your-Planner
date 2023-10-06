@@ -1,0 +1,200 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #f5f5f9;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529
+}
+
+table td,
+table th {
+    padding: .75rem;
+    vertical-align: top
+}
+
+table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6
+}
+
+table tbody+tbody {
+    border-top: 2px solid #dee2e6
+}
+
+table,
+table td,
+table th {
+    border: 1px solid #dee2e6
+}
+
+table thead td,
+table thead th {
+    border-bottom-width: 2px
+}
+
+.ui-datepicker-next,
+.ui-datepicker-prev,
+button.ui-datepicker-current {
+    background: #FFFf;
+    border: 1px solid #ccc;
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    padding: 4px;
+    margin-bottom: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    user-select: none;
+    margin-right: 16px;
+}
+
+tbody a {
+  color: #0ea2bd;
+}
+
+.ui-datepicker-title {
+    font-size: 22px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+header {
+    padding: 16px 0;
+}
+
+h1{
+  @media (max-width: 768px) {
+    font-size: 1.71rem;
+    line-height: 28px;
+}
+}
+.ui-datepicker-current-day {
+    background: #0ea2bd;
+}
+
+.ui-datepicker-current-day .ui-state-active {
+    color: #FFF;
+}
+
+.ui-datepicker td.holiday a,
+.ui-datepicker td.holiday a:hover {
+    /* background: none #fff; */
+    border: 1px solid #0ea2bd;
+    padding: 3px 6px;
+    border-radius: 1000px;
+}
+
+.card{
+    position: absolute;
+    left: 30rem !important;
+    top: 16rem !important;
+    box-shadow: 0 20px 50px rgba(0,0,0,.24);
+    width: 400px;
+    padding: 20px;
+    display: none;
+    z-index: 1;
+
+    @media (max-width: 768px) {
+      left: 35px !important;
+      top: 16rem !important;
+      width: 340px;
+  }
+}
+
+.remind-before{
+    display: none;
+}
+
+.nav-main {
+  background-color: var(--bs-bg-opacity);
+  width: 100%;
+  align-items: center;
+  padding: 10px 20px;
+  display: flex;
+  padding-bottom: 3rem;
+}
+
+.link-active {
+  color: #0ea2bd;
+  font-weight: 800;
+  font-size: 17px;
+  font-weight: 800;
+  font-family: "Public Sans", -apple-system, sans-serif;
+}
+
+/* Style for the navbar title */
+.nav-main-title {
+  font-size: 14px;
+}
+
+.nav-main-title a {
+  font-size: 14px;
+}
+
+/* Style for the navbar links */
+.nav-main-links {
+  list-style: none;
+  display: flex;
+
+  @media (max-width: 768px) {
+    display: grid;
+    grid-row-gap: 8px;
+    padding-left: 7rem;
+  }
+}
+
+.nav-main-links li {
+  margin-left: 20px;
+}
+
+.nav-main-links a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+/* Add hover effect on links */
+.nav-main-links a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-icon {
+    display: block;
+  }
+
+  .nav-links li {
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+  }
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
